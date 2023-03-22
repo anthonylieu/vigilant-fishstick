@@ -6,5 +6,5 @@
 <br>Checked that when I view future weather conditions for that city, I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity.</br>
 <br>Made sure when I click on a city in the search history, I am again presented with current and future conditions for that city.</br>
 <br>https://anthonylieu.github.io/vigilant-fishstick/</br>
-![anthonylieu github io_vigilant-fishstick__citySearch=28209](https://user-images.githubusercontent.com/38957648/226773099-6c550fd4-f898-4e6d-b8ae-37ef7507b865.png)
+<br>![anthonylieu github io_vigilant-fishstick__citySearch=28209](https://user-images.githubusercontent.com/38957648/226773099-6c550fd4-f898-4e6d-b8ae-37ef7507b865.png)</br>
 
