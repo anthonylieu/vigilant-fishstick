@@ -1,0 +1,61 @@
+header {
+  text-align: center;
+  font-size: xx-large;
+  background-color: #36368b;
+  color: white;
+}
+
+.fiveDay {
+  position: relative;
+  left: 490px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+}
+
+.fiveDay {
+  color: black;
+  border-radius: 5px;
+}
+
+.divCard {
+  background-color: #323d4f;
+}
+
+.currentWeather {
+  background-color: #323d4f;
+  color: #edf5e1;
+  border-radius: 10px;
+}
+
+.moderate {
+  background-color: yellow;
+  color: white;
+  padding: 5px;
+}
+
+.bad {
+  background-color: #ff6961;
+  color: white;
+  padding: 5px;
+}
+
+.good {
+  background-color: #77dd77;
+  color: white;
+  padding: 5px;
+}
+
+.button {
+  background-color: #6991e3;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+}

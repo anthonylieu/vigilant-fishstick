@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={7a0d30a5f4baa2d6838ab017995a2165)" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dash</title>
+</head>
+<header class="Weather-dash">
+    <h1>Weather Dashboard</h1>
+</header>
+
+
+<body>
+    <div class="row h-100">
+        <div class="col-lg-3">
+            <div class="card">
+                <h3 class="card-header text-search">Search For a City:</h3>
+                <form class="card-body">
+                    <label class="form-label"></label>
+                    <input id="citySearch" name="citySearch" type="text" autofocus="true" class="form-input" />
+                    <br />
+                    <br />
+                    <button type="button" id='searchBtn' class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card col-lg-9">
+            <div class="card-header">Today's Weather</div>
+            <div class="card-body currentWeather">
+                <h5 class="cityName"></h5>
+                <h6 id="currentDate"></h6>
+                <ul>
+                    <img id='cityIcon' src="" />
+                    <li id="temp">Temp:</li>
+                    <li id="wind">Wind:</li>
+                    <li id="humidity">Humidity:</li>
+                    <li>UV Index: <span id="uvIndex" class=""></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="inline">
+        <div class="card" style="width: 18rem">
+            <ul id="cityHistory" class="list-group list-group-flush">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="row fiveDay">
+        <div class="card" style="width: 18rem">
+            <h6 id="date24"></h6>
+            <img id='img24' class="mx-auto" src="" alt="..." />
+            <div class="card-body fiveCard">
+                <ul>
+                    <li id="temp24">Temp:</li>
+                    <li id="speed24">Speed:</li>
+                    <li id="humidity24">Humidity:</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem">
+            <h6 id="date48"></h6>
+            <img id='img48' class="mx-auto" src="" alt="..." />
+            <div class="card-body fiveCard">
+                <ul>
+                    <li id="temp48">Temp:</li>
+                    <li id="speed48">Speed:</li>
+                    <li id="humidity48">Humidity:</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem">
+
+            <h6 id="date72"></h6>
+            <img id='img72' class="mx-auto" src="" alt="..." />
+            <div class="card-body fiveCard">
+                <ul>
+                    <li id="temp72">Temp:</li>
+                    <li id="speed72">Speed:</li>
+                    <li id="humidity72">Humidity:</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem">
+
+            <h6 id="date96"></h6>
+            <img id='img96' class="mx-auto" src="" alt="..." />
+            <div class="card-body fiveCard">
+                <ul>
+                    <li id="temp96">Temp:</li>
+                    <li id="speed96">Speed:</li>
+                    <li id="humidity96">Humidity:</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem">
+
+            <h6 id="date120"></h6>
+            <img id='img120' class="mx-auto" src="" alt="..." />
+            <div class="card-body fiveCard">
+                <ul>
+                    <li id="temp120">Temp:</li>
+                    <li id="speed120">Speed:</li>
+                    <li id="humidity120">Humidity:</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/weather.js"></script>
+</body>
+
+</html>
